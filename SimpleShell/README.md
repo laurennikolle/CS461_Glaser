@@ -20,10 +20,10 @@ If you get an error when making the Makefile, ensure that the Makefile tabs are 
 copying the file can change that tabs to spaces.
 It should look something like:
 
-   laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ make
-   g++ -Iinclude -std=c++11 -c src/SimpleShell.cpp -o src/SimpleShell.o
-   g++ -Iinclude -std=c++11 -o bin/SimpleShell src/SimpleShell.o
-   ./bin/SimpleShell
+    laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ make
+    g++ -Iinclude -std=c++11 -c src/SimpleShell.cpp -o src/SimpleShell.o
+    g++ -Iinclude -std=c++11 -o bin/SimpleShell src/SimpleShell.o
+    ./bin/SimpleShell
 
 You should now be in the loop. To kill the program, select CTRL + Z.
 
