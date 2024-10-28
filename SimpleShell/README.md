@@ -7,13 +7,13 @@ This is the README the for Simple Shell.
 Find the folder contains your src/SimpleShell.cpp, include/SimpleShell.h and Makefile files and point to that in your linux terminal.
 Your terminal should look something like:
 
-   laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$
+    laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$
 
 Check that SimpleShell has the correct files (Makefile, src, include, README) by writing "ls".
 It should look something like:
 
-   laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ ls
-   Makefile  include  src
+    laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ ls
+    Makefile  include  src
 
 To compile the program, write "make".
 If you get an error when making the Makefile, ensure that the Makefile tabs are actually tabs and not spaces. Sometimes
@@ -42,9 +42,9 @@ If you get an error about permission denied, use sudo before your command (sudo 
 To clean up the complied files, write "make clean".
 It should look something like:
 
-   laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ make clean
-      rm -f src/*.o
-      rm -rf bin
+    laurennikolle@LAPTOP-SPL29JA8:~/SimpleShell$ make clean
+        rm -f src/*.o
+        rm -rf bin
 
 Good luck!
 
