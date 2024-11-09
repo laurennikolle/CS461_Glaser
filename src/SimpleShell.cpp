@@ -1,3 +1,7 @@
+// Lauren Glaser
+// PS3
+// CS461
+
 #include <iostream>
 #include <vector>
 #include <string>
