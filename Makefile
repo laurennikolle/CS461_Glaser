@@ -1,3 +1,7 @@
+# Lauren Glaser
+# PS4
+# CS 461
+
 # Compiler and flags
 CXX = g++
 CXXFLAGS = -Iinclude -std=c++11
