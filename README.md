@@ -1,5 +1,5 @@
 # Lauren Glaser
-# PS 03
+# PS 04
 # CS 461
 
 This is the README the for Simple Shell.
@@ -28,9 +28,8 @@ It should look something like:
 You should now be in the loop. To kill the program, select CTRL + Z.
 
 You can now use the commands:
-    ls -F  > lsTest.txt
-    wc < src/SimpleShell.cpp > wcTest.txt
-    cat < src/SimpleShell.cpp > catTest.txt
+    cat src/SimpleShell.cpp | grep main
+    ls | wc
 
 If you get an error about permission denied, use sudo before your command (sudo mkdir foo). Errors related to permissions look similar to: 
 
