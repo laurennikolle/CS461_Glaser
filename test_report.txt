@@ -1,0 +1,34 @@
+Lauren Glaser
+CS461
+PS5
+
+1. Requirement for Shell
+	a. The Shell must be able to run these commands:
+		/bin/date
+                cd /usr
+                pwd
+                mkdir directory_name
+                ls -F
+                cat file_name
+		% ls -F  > output
+                % wc < input > output
+                % cat < input > output
+		% cat dup.cc | grep main
+                % ls | wc
+	b. The shell must operate in an infinite loop. 
+
+2. Testing
+
+To ensure that the shell was able to run the above commands, I used these commands:
+	/bin/date
+        cd /usr
+        pwd
+        mkdir test_directory
+        ls -F
+        cat test_report.txt
+	% ls -F  > lsTest.txt
+        % wc < src/SimpleShell.cpp > wcTest.txt
+        % cat < src/SimpleShell.cpp > catTest.txt
+	% cat src/SimpleShell.cpp | grep main 
+        % ls | wc
+

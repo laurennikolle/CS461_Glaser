@@ -1,5 +1,5 @@
 # Lauren Glaser
-# PS 04
+# PS 05
 # CS 461
 
 This is the README the for Simple Shell.
